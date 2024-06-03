@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpenStreetMap with Markers</title>
+<link rel="stylesheet" href="leaflet/leaflet.css">
+</head>
+<body>
+
+<div id="map" style="height:400px;"></div>
+
+<script src="leaflet/leaflet-src.js"></script>
+<script>
+    xyz= document.createElement('div');
+    document.body.appendChild(xyz);
+    xyz.style.height="800px";
+  // Initialize the map
+  var map = L.map('map').setView([51.505, -0.09], 13);
+
+  // Add OpenStreetMap tile layer
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  // List of markers with coordinates
+  var markers = [
+    { lat: 51.5, lng: -0.09, title: 'Marker 1' },
+    { lat: 51.51, lng: -0.1, title: 'Marker 2' },
+    // Add more markers as needed
+  ];
+
+  // Add markers to the map
+  markers.forEach(function(marker) {
+    L.marker([marker.lat, marker.lng]).addTo(map).bindPopup(marker.title);
+  });
+</script>
+
+</body>
+</html>

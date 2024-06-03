@@ -1,0 +1,43 @@
+{
+    "manifest_version": 3,
+    "name": "Hello RealFresh",
+    "version": "1.4",
+    "description": "Shop recipies of Hellofresh without a subscription",
+    
+    "permissions": ["storage", "tabs","activeTab","scripting"],
+    "host_permissions": ["https://www.hellofresh.com/*","https://www.hellofresh.de/*","https://www.hellofresh.co.uk/*","https://www.hellofresh.ca/*","https://www.hellofresh.ie/*","https://www.hellofresh.fr/*","https://www.hellofresh.com.au/*","https://www.hellofresh.nl/*","https://www.hellofresh.it/*"],
+    
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'; img-src * data:;"
+    },
+    
+    "content_scripts": [
+      {
+        "matches": ["https://www.hellofresh.com/*","https://www.hellofresh.de/*","https://www.hellofresh.co.uk/*","https://www.hellofresh.ca/*","https://www.hellofresh.ie/*","https://www.hellofresh.fr/*","https://www.hellofresh.com.au/*","https://www.hellofresh.nl/*","https://www.hellofresh.it/*"],
+        "js": ["contentScript.js"],
+        "css": ["styles.css"]
+      }
+    ],
+    
+    "web_accessible_resources": [
+      {
+        "resources": ["assets/refresh_icon.png","assets/cart_icon.png","assets/cart_transparent.png","assets/caflag.svg","assets/nlflag.svg","assets/auflag.svg","assets/caflag.svg","assets/usflag.svg","assets/ukflag.svg","assets/frflag.svg","assets/irflag.svg","assets/deflag.svg","assets/spiceblend.png"],
+        "matches": ["https://www.hellofresh.com/*","https://www.hellofresh.de/*","https://www.hellofresh.co.uk/*","https://www.hellofresh.ca/*","https://www.hellofresh.ie/*","https://www.hellofresh.fr/*","https://www.hellofresh.com.au/*","https://www.hellofresh.nl/*","https://www.hellofresh.it/*"]
+      }
+    ],
+    
+    "action": {
+      "default_icon": {
+        "16": "assets/groceryprice16.png",
+        "24": "assets/groceryprice24.png",
+        "32": "assets/groceryprice32.png"
+      },
+      "default_title": "all url extension",
+      "default_popup": "popup.html",
+      "js": "popup.js"
+    }
+
+}

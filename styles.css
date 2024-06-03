@@ -1,0 +1,659 @@
+
+.site-header__container{
+    background-color: green !important;
+}
+.priceButton{
+    color: var(--gm-hairlinebutton-ink-color, rgb(26, 115, 232));
+    /* background: rgb(230, 240, 255); */
+    background: white;
+    border-radius: 15px;
+    border-width: 0px;
+    margin-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+    padding-left: 12px;
+    line-height: 20px;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-size: .875rem;
+    letter-spacing: .0107142857em;
+    font-weight: 500;
+    text-transform: none;
+}
+.priceButton:hover{
+    background: white;
+   /* background: rgb(179,215,255); */
+}
+.showplacesButton{
+    color: var(--gm-hairlinebutton-ink-color, rgb(26, 115, 232));
+    background: rgb(230, 240, 255);
+    border-radius: 15px;
+    border-width: 0px;
+    margin-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+    padding-left: 12px;
+    line-height: 20px;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-size: .875rem;
+    letter-spacing: .0107142857em;
+    font-weight: 500;
+    text-transform: none;
+
+}
+.showplacesdeactivated{
+    background:white;
+
+}
+.showplacesButton:hover{
+    background: rgb(179,215,255);
+}
+.loadallplacesbutton{
+  color: var(--gm-hairlinebutton-ink-color, rgb(26, 115, 232));
+  background: rgb(230, 240, 255);
+  border-radius: 15px;
+  border-width: 0px;
+  margin-left: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 12px;
+  padding-left: 12px;
+  line-height: 20px;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: .875rem;
+  letter-spacing: .0107142857em;
+  font-weight: 500;
+  text-transform: none;
+
+}
+
+.loadallplacesbutton:hover{
+  background: rgb(179,215,255);
+}
+
+.childvisible *{
+    visibility:visible;
+}
+/* .pricestatus{
+    color: var(--gm-hairlinebutton-ink-color, rgb(26, 115, 232));
+    border-radius: 15px;
+    border-width: 0px;
+    margin-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    line-height: 20px;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-size: .875rem;
+    letter-spacing: .0107142857em;
+    text-transform: none;
+    background-color: white;
+    font-weight: 100;
+    padding-right: 0px;
+} */
+
+table {
+    border-collapse: collapse;
+    border-radius: 15px;
+    margin-left: 10px;
+    width: 95%;
+    border: 1px solid rgb(43, 43, 43); /* Set border color and width for the entire table */
+  }
+
+  th, td {
+    border: 1px solid rgb(20, 20, 20); /* Set border color and width for table cells */
+    padding: 10px;
+    text-align: left;
+    
+
+  }
+  tr{
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-weight: 400;
+    color: #202124;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+    font-size: 16px;
+  }
+  .allplacesparent{
+    
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-weight: 500;
+    color: #202124;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+    font-size: 16px;
+
+  }
+  .allplacesparent1{
+    
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-weight: 500;
+    color: #202124;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+    font-size: 16px;
+
+  }
+  .placeheader{
+    
+    color: var(--gm-hairlinebutton-ink-color, rgb(26, 115, 232));
+    
+    margin-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+    padding-left: 12px;
+    line-height: 20px;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-size: 0.875rem;
+    letter-spacing: 0.0107143em;
+    font-weight: 500;
+    text-transform: none;
+    background: rgb(230, 240, 255);
+    border-radius: 15px;
+    border-width: 0px;
+  }
+  .placeheader:hover{
+    
+    padding: 10px;
+    border-collapse: collapse;
+    width: 100%;
+    background: rgb(179,215,255);
+  }
+
+  .placeheader1{
+    
+    color: var(--gm-hairlinebutton-ink-color, rgb(26, 115, 232));
+    text-align: left;
+    margin-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+    padding-left: 12px;
+    line-height: 20px;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-size: 0.875rem;
+    letter-spacing: 0.0107143em;
+    font-weight: 500;
+    text-transform: none;
+    background: rgb(245, 230, 255);
+    border-radius: 15px;
+    border-width: 0px;
+  }
+  .placeheader1:hover{
+    
+    padding: 10px;
+    border-collapse: collapse;
+    width: 100%;
+    background: rgb(212, 179, 255);
+  }
+
+  .tabledesign{
+    width: 95%;
+    height: 600px;
+    overflow: auto;
+    
+  }
+
+  .tabledesign1{
+    width: 95%;
+    height: auto;
+    overflow: auto;
+    line-height: 0px;
+    
+  }
+
+  thead{
+    position: sticky; /* Make the header sticky */
+    top: 0; /* Stick to the top */
+    background: rgb(230, 240, 255);
+    
+  }
+  tbody {
+    overflow: auto;
+  }
+  .searchbutton{
+    color: var(--gm-hairlinebutton-ink-color, rgb(26, 115, 232));
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+    padding-left: 12px;
+    line-height: 20px;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-size: 0.875rem;
+    letter-spacing: 0.0107143em;
+    font-weight: 500;
+    text-transform: none;
+    background: rgb(230, 240, 255);
+    border-radius: 15px;
+    border-width: 0px;
+    margin-top: 10px;
+    width: fit-content;
+  }
+  .searchbutton:hover{
+    border-collapse: collapse;
+    background: rgb(179,215,255);
+    cursor: auto;
+  }
+  .basicextra{
+    width:80px;
+    margin-left: 8px;
+    text-align: right;
+    font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    line-height: 16px;
+    cursor: pointer;
+    padding-top: 5px;
+  }
+  .basicextraprice{
+    font-family: "Google Sans", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+    text-align: right;
+    color:rgb(34,130,8);
+    white-space: nowrap;
+  }
+  .sortmap{
+    font-size:small;
+    border-width: 1px;
+    border-color: black;
+    background: rgb(190, 220, 251);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    width: fit-content;
+  }
+
+  .sortmap:hover{
+    background: rgb(136, 193, 255);
+   
+  }
+
+  .favourite{
+    font-size:small;
+    border-width: 1px;
+    border-color: black;
+    background: rgb(190, 220, 251);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    width: fit-content;
+  }
+
+  .favourite:hover{
+    background: rgb(136, 193, 255);
+   
+  }
+  .showfav{
+    font-size:small;
+    border-width: 1px;
+    border-color: black;
+    background: rgb(190, 220, 251);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    width: fit-content;
+  }
+
+  .showfav:hover{
+    background: rgb(136, 193, 255);
+   
+  }
+  .sorteditem{
+    padding:10px;
+    width: 80%;
+    align-content: space-between;
+    padding-top:5px;
+    padding-left:15px;
+
+  }
+  .sortedimage{
+    padding: 10px;
+    width: 90%;
+    height: 100%;
+    border-radius: 15px;
+  }
+  .infocontainer{
+    display:flex;
+    flex-direction: column-reverse;
+    width:50%;
+    padding-top: 5px;
+  }
+  .infocontainer:hover{
+    background-color: rgb(183, 213, 239);
+  }
+
+#map{
+  height: 180px;
+  width:300px;
+}
+.newmapparent{
+  height:100%;
+  width:100%;
+}
+.searchother{
+  background-color: rgb(24, 179, 8);
+  border-radius: 10px;
+  font-family: "Google Sans", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  border:transparent;
+  color:white;
+}
+.searchother:hover{
+  background-color: rgb(16, 140, 8);
+  font-weight: 500;
+}
+
+.groceryitems{
+  padding: 10px;
+    margin: 10px;
+    font-weight: 800;
+    background-color: rgb(168 205 167);
+}
+.pantryitems{
+    padding: 10px;
+    margin: 10px;
+    font-weight: 800;
+    background-color: rgb(168 205 167);
+}
+.detailsbutton{
+  padding-left:10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 500;
+  background-color: rgb(5, 120, 1);
+  color:white;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-family:Agrandir, Verdana, Geneva, sans-serif;
+}
+.detailsbutton:hover{
+  background-color: rgb(4, 85, 1);
+
+}
+.addtocartbutton{
+  padding-left:10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 500;
+  background-color: rgb(5, 120, 1);
+  color:white;
+  margin-left: 10px;
+  border-radius: 5px;
+  height:30px;
+  cursor:pointer;
+  width:50%;
+  display:flex;
+  font-family:Agrandir, Verdana, Geneva, sans-serif;
+}
+.addtocartbutton:hover{
+  background-color: rgb(4, 85, 1);
+
+}
+.removefromcartbutton{
+  padding-left:10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 500;
+  font-family:Agrandir, Verdana, Geneva, sans-serif;
+  background-color: rgb(185, 6, 6);
+  color:white;
+  margin-left: 10px;
+  border-radius: 5px;
+  height:30px;
+  cursor:pointer;
+  width:100px;
+  display:flex;
+}
+.clickedaddtocart{
+  pointer-events: none;
+  cursor: none;
+  background-color: rgb(185, 6, 6);
+}
+.shoppingcartbutton{
+  /* background-color: green;
+  color:white;
+  font-size: 14px;
+  border-radius: 10px; */
+  padding:0px;
+  margin-left:10px;
+  cursor:pointer;
+  width:50px;
+  background-color: #f8f8f8;
+  height:50px;
+  position: fixed;
+  top: 110px;
+  right: 10px;
+  z-index: 99;
+  /* font-family:Agrandir, Verdana, Geneva, sans-serif; */
+}
+.cartpage1{
+  background-color: white;
+  width:300px;
+  position:fixed;
+  top:160px;
+  right:10px;
+  z-index:10;
+  border-width: 1px;
+  border-color: green;
+  border-style: solid;
+  border-radius: 10px;
+  height:600px;
+  font-family: Agrandir, Verdana, Geneva, sans-serif;
+}
+.recipeitems1{
+  background-color: white;
+}
+.groceryitems1{
+
+background-color: white;
+}
+.pantryitems1{
+  background-color: white;
+}
+.carttitle{
+  width:100%;
+  font-weight: 500;
+  color:white;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin:10px 10px 0px 10px;
+  border-radius: 5px;
+  padding:5px;
+}
+.carttitleinner{
+  width:fit-content;
+  font-weight: 500;
+  background-color: green;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+  border-radius: 5px;
+}
+.cartrecipetitleinner{
+  width:fit-content;
+  font-weight: 500;
+  background-color: green;
+  color:white;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+  border-radius: 5px;
+}
+.recipenameincart{
+  margin-left:15px;
+  padding-top: 10px;
+  font-weight: 400;
+  font-family: Agrandir, Verdana, Geneva, sans-serif;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.pantrynameincart{
+  margin-left:15px;
+  padding-top: 10px;
+  font-weight: 400;
+  font-family: Agrandir, Verdana, Geneva, sans-serif;
+}
+.grocerynameincart{
+  margin-left:15px;
+  padding-top: 10px;
+  font-weight: 400;
+  font-family: Agrandir, Verdana, Geneva, sans-serif;
+}
+.othernameincart{
+  margin-left:15px;
+  padding-top: 10px;
+  font-weight: 400;
+  font-family: Agrandir, Verdana, Geneva, sans-serif;
+}
+.cartheader1{
+  font-size: 20px;
+  font-weight: 500;
+  margin:5px 10px 5px 10px;
+  text-align: center;
+  font-family: Agrandir, Verdana, Geneva, sans-serif;
+  position:sticky;
+}
+.cartcontents{
+  overflow:auto;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+}
+.selectElement{
+  max-height: 400px;
+  overflow: auto;
+  width:100px;
+}
+.storecontainer{
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:10px;
+  padding-right: 10px;
+  max-height: 400px;
+  overflow-y: auto;
+  font-family: Agrandir, Verdana, Geneva, sans-serif;
+  font-size: 16px;
+  width:300px;
+  display:flex;
+  flex-direction: row;
+}
+.option1{
+  width:100px;
+}
+.ingredientsincart{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 15px;
+}
+
+.buylink{
+  padding-top: 5px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: green;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    text-decoration: auto;
+}
+.buylink:hover{
+  background-color: darkgreen;
+}
+.disabled {
+  pointer-events: none;
+  color: darkgrey;
+  cursor: not-allowed;
+  text-decoration: none;
+  background-color: lightgrey;
+}
+
+.buyalllink{
+  padding-top: 5px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: green;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    text-decoration: auto;
+    margin-right: 15px;
+    cursor:pointer;
+}
+.buyalllink:hover{
+  background-color: darkgreen;
+}
+.disabledall {
+  pointer-events: none;
+  color: darkgrey;
+  cursor: not-allowed;
+  text-decoration: none;
+  background-color: lightgrey;
+  
+}
+.removerecipe{
+  padding:0px 15px 10px 10px;
+  cursor: pointer;
+}
+.removerecipe:hover{
+  color:red;
+}
+.refreshpagebutton{
+  padding:5px 10px 5px 10px;
+  font-family: Agrandir, Verdana, Geneva, sans-serif;
+  background-color: green;
+  color:white;
+  font-size: 14px;
+  border-radius: 10px; 
+  margin-left: 10px;
+  /* height:20px;
+  width:20px; */
+  cursor:pointer;
+  font-family:Agrandir, Verdana, Geneva, sans-serif;
+
+}
+.refreshcartbutton{
+  height:20px;
+  width:20px;
+  cursor:pointer;
+  position: absolute;
+  align-content: center;
+  right: 0px;
+  top:2px;
+}
+.spiceblend{
+  margin: 15px;
+}
+.clearrecipes{
+  color:red;
+  margin-right:20px;
+  padding-top:5px;
+  cursor:pointer;
+}
