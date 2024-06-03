@@ -1,18 +1,12 @@
-# travel-the-world
-Chrome extension 
-1. show map and price color for 150, 250, >250
-2. sort places on prices
-3. hide high priced places
-4. Auto refresh
-6. Show all places on click of a button
-7. Toggle between all and current places
-8. css improve
-9. maps sort by reviews
-//To do 
-5. //Scroll through different months and periods
-6. //Store date range, for a place
-6. //Mark places favourite
-7. //Show favourite places on top of other places
-8. Share button
-9. holiday calendar of countries integrated
+# Hello RealFresh
+ Meal planning and grocery shopping should not be complicated.
+1. Shop all recipes of Hellofresh from any store without subscribing to Hellofresh.
+2. Order groceries from any shop near you whenever you want to.
+3. Customise grocery quantity based on leftovers
+4. ITS COMPLETELY FREE !!
+
+
+Privacy Notice:
+1. We don't collect any user data.
+2. We don't transmit any user data to any third party vendor.
 
